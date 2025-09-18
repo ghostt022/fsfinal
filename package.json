@@ -1,0 +1,29 @@
+{
+  "name": "faculty-application",
+  "version": "1.0.0",
+  "description": "Dynamic faculty application with Angular frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test"
+  },
+  "keywords": [
+    "faculty",
+    "angular",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Faculty Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@angular/material": "^20.0.3"
+  }
+}

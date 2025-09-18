@@ -1,0 +1,102 @@
+
+<div *ngIf="isLoading" class="spinner-container">
+  <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="!isLoading && error" class="error-message">
+  {{ error }}
+</div>
+
+<div *ngIf="!isLoading && !error">
+  <div class="flex justify-between items-center mb-4">
+    <h2>Положени предмети</h2>
+    <div class="flex gap-2">
+      <button mat-raised-button color="accent" (click)="debugGrades()" [disabled]="isLoading">
+        <mat-icon>bug_report</mat-icon>
+        Debug
+      </button>
+      <button mat-raised-button color="primary" (click)="loadGrades()" [disabled]="isLoading">
+        <mat-icon>refresh</mat-icon>
+        Обнови
+      </button>
+    </div>
+  </div>
+  <div class="table-responsive mat-elevation-z2">
+    <table mat-table [dataSource]="passedSubjects" class="mat-elevation-z8 w-full">
+      <ng-container matColumnDef="code">
+        <th mat-header-cell *matHeaderCellDef>Предмет ИД</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseCode(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Име предмет</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseName(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="professor">
+        <th mat-header-cell *matHeaderCellDef>Професор</th>
+        <td mat-cell *matCellDef="let element">{{ getProfessorName(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="credits">
+        <th mat-header-cell *matHeaderCellDef>Број кредити</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseCredits(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="grade">
+        <th mat-header-cell *matHeaderCellDef>Оцена</th>
+        <td mat-cell *matCellDef="let element">
+          <span [style.color]="element.grade >= 6 ? 'green' : 'red'" [style.font-weight]="'bold'">
+            {{ element.grade }}
+          </span>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef>Датум</th>
+        <td mat-cell *matCellDef="let element">{{ element.examDate | date:'dd.MM.yyyy' }}</td>
+      </ng-container>
+      <ng-container matColumnDef="passed">
+        <th mat-header-cell *matHeaderCellDef>Положен</th>
+        <td mat-cell *matCellDef="let element"><span style="color: green; font-weight: bold;">✓</span></td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="['code', 'name', 'professor', 'credits', 'grade', 'date', 'passed']"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['code', 'name', 'professor', 'credits', 'grade', 'date', 'passed'];"></tr>
+    </table>
+  </div>
+
+  <h2 style="margin-top: 1rem;">Неположени предмети</h2>
+  <div class="table-responsive mat-elevation-z2">
+    <table mat-table [dataSource]="unpassedSubjects" class="mat-elevation-z8 w-full">
+      <ng-container matColumnDef="code">
+        <th mat-header-cell *matHeaderCellDef>Предмет ИД</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseCode(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Име предмет</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseName(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="professor">
+        <th mat-header-cell *matHeaderCellDef>Професор</th>
+        <td mat-cell *matCellDef="let element">{{ getProfessorName(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="credits">
+        <th mat-header-cell *matHeaderCellDef>Број кредити</th>
+        <td mat-cell *matCellDef="let element">{{ getCourseCredits(element) }}</td>
+      </ng-container>
+      <ng-container matColumnDef="grade">
+        <th mat-header-cell *matHeaderCellDef>Оцена</th>
+        <td mat-cell *matCellDef="let element">
+          <span [style.color]="element.grade >= 6 ? 'green' : 'red'" [style.font-weight]="'bold'">
+            {{ element.grade || '-' }}
+          </span>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef>Датум</th>
+        <td mat-cell *matCellDef="let element">{{ element.examDate ? (element.examDate | date:'dd.MM.yyyy') : '-' }}</td>
+      </ng-container>
+      <ng-container matColumnDef="passed">
+        <th mat-header-cell *matHeaderCellDef>Положен</th>
+        <td mat-cell *matCellDef="let element"><span style="color: red; font-weight: bold;">✗</span></td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="['code', 'name', 'professor', 'credits', 'grade', 'date', 'passed']"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['code', 'name', 'professor', 'credits', 'grade', 'date', 'passed'];" [ngStyle]="{'background-color': '#ffeaea'}"></tr>
+    </table>
+  </div>
+</div>

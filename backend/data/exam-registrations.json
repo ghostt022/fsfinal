@@ -1,0 +1,46 @@
+[
+  {
+    "_id": {
+      "$oid": "f8a7b5c58d45c30f0f4810c3"
+    },
+    "studentId": "68c7364d8bc10b7d626bbc9b",
+    "studentName": "Filip Markovski",
+    "studentIndex": "ST1",
+    "professorName": "Zoran Kotevski",
+    "courseId": "6151f8a7e4b0c8e8f8f8f8fc",
+    "courseName": "Бази на податоци",
+    "courseCode": "CS006",
+    "semester": "summer",
+    "examDate": "2025-02-10",
+    "notes": "",
+    "status": "pending",
+    "createdAt": {
+      "$date": "2025-09-17T12:56:59.810Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-17T12:56:59.810Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "38099e6f3f950a9cde852713"
+    },
+    "studentId": "68c56428ac693344684ce008",
+    "studentName": "Aleksandar Darkovski",
+    "studentIndex": "ST1000",
+    "professorName": "Zoran Kotevski",
+    "courseId": "6151f8a7e4b0c8e8f8f8f8f2",
+    "courseName": "Вовед во програмирање",
+    "courseCode": "CS001",
+    "semester": "summer",
+    "examDate": "2025-11-01",
+    "notes": "",
+    "status": "pending",
+    "createdAt": {
+      "$date": "2025-09-17T17:15:06.772Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-17T17:15:06.772Z"
+    }
+  }
+]

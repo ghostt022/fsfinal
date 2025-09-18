@@ -1,0 +1,100 @@
+[
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f7"
+    },
+    "email": "darkovskialeksandar5@uklo.edu.mk",
+    "password": "$2a$12$9SRruxcO3JeV6cY6KByVbuLH0zB6R1psRm2BTrlArICGbLl1QZEg.",
+    "firstName": "Aleksandar",
+    "lastName": "Darkovski",
+    "role": "student",
+    "dateOfBirth": "2002-10-19T22:00:00.000Z",
+    "isActive": true,
+    "createdAt": "2025-06-22T21:41:40.214Z",
+    "lastLogin": "2025-09-18T15:04:59.186Z"
+  },
+  {
+    "_id": {
+      "$oid": "emilijana-user-oid"
+    },
+    "email": "emilijanarizoska@uklo.edu.mk",
+    "password": "$2b$12$BrMM5OCYIaQR/oxBgo7Qfe3Zc5HLH5RPs/LR0HEtPOs/sXY5SIfGK",
+    "firstName": "Emilijana",
+    "lastName": "Rizoska",
+    "role": "student",
+    "dateOfBirth": "2002-10-09T22:00:00.000Z",
+    "isActive": true,
+    "createdAt": "2025-06-22T23:33:11.752Z",
+    "lastLogin": "2025-09-11T16:39:18.810Z"
+  },
+  {
+    "_id": {
+      "$oid": "68c2fca42848b843ea19caaa"
+    },
+    "email": "darkovskizoran@uklo.edu.mk",
+    "password": "$2b$10$RNzFyMeTRmVs3d3GdbkATe7AwyTLwDVZ1UI/X9.sLfvO32oDemtJm",
+    "firstName": "Zoran",
+    "lastName": "Darkovski",
+    "role": "student",
+    "isActive": true,
+    "createdAt": "2025-09-11T16:45:24.449Z",
+    "updatedAt": "2025-09-11T16:45:24.449Z",
+    "lastLogin": null
+  },
+  {
+    "_id": {
+      "$oid": "68c5642873140b28be755cb5"
+    },
+    "email": "acedarkov8@uklo.edu.mk",
+    "password": "$2b$10$jH9vakvCmwUP0yXk1XNB4ezhRzNmYbGC3wbEd5/nYlEW1KKVK/Bb2",
+    "firstName": "Aleksandar",
+    "lastName": "Darkovski",
+    "role": "student",
+    "isActive": true,
+    "createdAt": "2025-09-13T12:31:36.020Z",
+    "updatedAt": "2025-09-13T12:31:36.020Z",
+    "lastLogin": "2025-09-17T17:51:31.561Z"
+  },
+  {
+    "_id": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "email": "kotevski.zoran@uklo.edu.mk",
+    "password": "$2b$10$MZfkXzqKtT3ZOj92N.opIOMvTqziJ3zkuovhO8hzWs85ahvPg2H82",
+    "firstName": "Zoran",
+    "lastName": "Kotevski",
+    "role": "professor",
+    "isActive": true,
+    "createdAt": "2025-09-13T12:33:21.367Z",
+    "updatedAt": "2025-09-13T12:33:21.367Z",
+    "lastLogin": "2025-09-17T18:29:07.051Z"
+  },
+  {
+    "_id": {
+      "$oid": "68c7364dda3e74a3c1a7a3e5"
+    },
+    "email": "markovski.filip@uklo.edu.mk",
+    "password": "$2b$10$FdrjywSQlrteTca/qsJ2AupdoWHOqI8KXRUzvwcbeWmdKZOaheOzS",
+    "firstName": "Filip",
+    "lastName": "Markovski",
+    "role": "student",
+    "isActive": true,
+    "createdAt": "2025-09-14T21:40:29.982Z",
+    "updatedAt": "2025-09-14T21:40:29.982Z",
+    "lastLogin": "2025-09-17T17:52:35.922Z"
+  },
+  {
+    "_id": {
+      "$oid": "68cafe3119482818d61a2939"
+    },
+    "email": "kotevski.goran@uklo.edu.mk",
+    "password": "$2b$10$0VadOYq0I/d3J2z2O0KrUOe4ieDhE/QOLycM6jLs/u1F56bf/8tXq",
+    "firstName": "Goran",
+    "lastName": "Kotevski",
+    "role": "professor",
+    "isActive": true,
+    "createdAt": "2025-09-17T18:30:09.659Z",
+    "updatedAt": "2025-09-17T18:30:09.660Z",
+    "lastLogin": null
+  }
+]

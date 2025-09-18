@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f1"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 8,
+    "semester": 1,
+    "academicYear": "2023/2024",
+    "examDate": "2024-02-15T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f3"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f4"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 9,
+    "semester": 2,
+    "academicYear": "2023/2024",
+    "examDate": "2024-06-10T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f5"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f6"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 7,
+    "semester": 3,
+    "academicYear": "2024/2025",
+    "examDate": "2024-02-20T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f7"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 10,
+    "semester": 4,
+    "academicYear": "2024/2025",
+    "examDate": "2024-09-01T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fa"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 6,
+    "semester": 5,
+    "academicYear": "2024/2025",
+    "examDate": "2025-02-18T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fb"
+    },
+    "student": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fc"
+    },
+    "professor": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "grade": 8,
+    "semester": 6,
+    "academicYear": "2024/2025",
+    "examDate": "2025-06-05T00:00:00.000Z",
+    "isFinal": true
+  },
+  {
+    "_id": {
+      "$oid": "c2237e0fbc359205fa343acc"
+    },
+    "student": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "grade": 6,
+    "examDate": "2025-02-01",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T21:52:09.669Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T21:52:09.669Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dd3c71e345b9ede547fd19c7"
+    },
+    "student": {
+      "$oid": "68c56428ac693344684ce008"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "grade": 6,
+    "examDate": "2025-02-10",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T21:54:06.098Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T21:54:06.098Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2b2a510ba058fb99b5a60c3"
+    },
+    "student": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f4"
+    },
+    "grade": 6,
+    "examDate": "0202-02-01",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T22:00:24.064Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T22:00:24.064Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e2192c2ee6e84abf91380dd0"
+    },
+    "student": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f6"
+    },
+    "grade": 6,
+    "examDate": "0202-02-01",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T22:01:14.647Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T22:01:14.647Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dac7602d3a8804f642cd7058"
+    },
+    "student": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f8"
+    },
+    "grade": 6,
+    "examDate": "2025-03-10",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T22:05:47.900Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T22:05:47.900Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d3577cf627a666b42eef18ed"
+    },
+    "student": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "course": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fa"
+    },
+    "grade": 6,
+    "examDate": "2025-02-01",
+    "semester": 1,
+    "academicYear": "2024/2025",
+    "createdAt": {
+      "$date": "2025-09-14T22:17:59.227Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-14T22:17:59.227Z"
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+    },
+    "user": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f8"
+    },
+    "professorId": "P001",
+    "department": "КИТ",
+    "title": "Professor",
+    "specialization": "Софтверско инженерство",
+    "office": "Канцеларија 501",
+    "phone": "123-456-7890",
+    "status": "active"
+  },
+  {
+    "_id": {
+      "$oid": "68c56491d73bfc636adf24d4"
+    },
+    "user": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "professorId": "P001",
+    "title": "Principe Multimedian Services",
+    "specialization": "Artifical Intelegence",
+    "status": "active"
+  },
+  {
+    "_id": {
+      "$oid": "68cafe316e613fb6eb246218"
+    },
+    "user": {
+      "$oid": "68cafe3119482818d61a2939"
+    },
+    "professorId": "P003",
+    "title": "Associate",
+    "specialization": "Artifical Intelegence",
+    "status": "active"
+  }
+]

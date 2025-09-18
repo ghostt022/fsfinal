@@ -1,0 +1,22 @@
+/* Add styles for the schedule component here */
+/* Make schedule cards and tables adapt on small screens */
+.card-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.table-responsive { width: 100%; overflow-x: auto; }
+
+th, td { white-space: nowrap; } 

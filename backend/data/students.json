@@ -1,0 +1,388 @@
+[
+  {
+    "_id": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "user": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f7"
+    },
+    "studentId": "ST1750628500214",
+    "year": 1,
+    "semester": 1,
+    "department": "КИТ",
+    "major": "Софтверско инженерство",
+    "enrollmentDate": "2024-09-01T00:00:00.000Z",
+    "gpa": 8.2,
+    "totalCredits": 30,
+    "status": "active",
+    "grades": [
+      {
+        "_id": {
+          "$oid": "6151f8a7e4b0c8e8f8f8f8f1"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f2",
+          "code": "CS001",
+          "name": "Вовед во програмирање",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 8,
+        "semester": 1,
+        "academicYear": "2023/2024",
+        "examDate": "2024-02-15T00:00:00.000Z",
+        "createdAt": {
+          "$date": "2025-09-14T22:23:35.770Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:23:35.771Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "6151f8a7e4b0c8e8f8f8f8f3"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f4",
+          "code": "CS002",
+          "name": "Структури на податоци",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 9,
+        "semester": 2,
+        "academicYear": "2023/2024",
+        "examDate": "2024-06-10T00:00:00.000Z",
+        "createdAt": {
+          "$date": "2025-09-14T22:23:35.771Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:23:35.771Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "6151f8a7e4b0c8e8f8f8f8f9"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8fa",
+          "code": "CS005",
+          "name": "Оперативни системи",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 6,
+        "semester": 5,
+        "academicYear": "2024/2025",
+        "examDate": "2025-02-18T00:00:00.000Z",
+        "createdAt": {
+          "$date": "2025-09-14T22:23:35.783Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:23:35.783Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "6151f8a7e4b0c8e8f8f8f8fb"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8fc",
+          "code": "CS006",
+          "name": "Бази на податоци",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 8,
+        "semester": 6,
+        "academicYear": "2024/2025",
+        "examDate": "2025-06-05T00:00:00.000Z",
+        "createdAt": {
+          "$date": "2025-09-14T22:23:35.783Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:23:35.783Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "b67241f289bb2ea523db0105"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f4",
+          "code": "CS002",
+          "name": "Структури на податоци",
+          "credits": 6
+        },
+        "professor": {
+          "_id": "68c56491d73bfc636adf24d4",
+          "firstName": "Zoran",
+          "lastName": "Kotevski"
+        },
+        "grade": 6,
+        "examDate": "2025-01-01",
+        "semester": 2,
+        "academicYear": "2024/2025",
+        "createdAt": {
+          "$date": "2025-09-17T17:49:50.489Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-17T17:49:50.489Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "5f8396be4f47a1e77dd851a2"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f6",
+          "code": "CS003",
+          "name": "Алгоритми",
+          "credits": 6
+        },
+        "professor": {
+          "_id": "68cafe316e613fb6eb246218",
+          "firstName": "Goran",
+          "lastName": "Kotevski"
+        },
+        "grade": 6,
+        "examDate": "2025-01-01",
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "createdAt": {
+          "$date": "2025-09-17T18:30:39.820Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-17T18:30:39.820Z"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "emilijana-student-oid"
+    },
+    "user": {
+      "$oid": "emilijana-user-oid"
+    },
+    "studentId": "ST-EMILIJANA-001",
+    "year": 1,
+    "semester": 1,
+    "department": "Computer Science",
+    "major": "Software Engineer",
+    "enrollmentDate": "2025-06-22T23:33:11.753Z",
+    "gpa": 0,
+    "totalCredits": 0,
+    "status": "active",
+    "grades": []
+  },
+  {
+    "_id": {
+      "$oid": "68c2fca4e2e428f70cbd2ce3"
+    },
+    "user": {
+      "$oid": "68c2fca42848b843ea19caaa"
+    },
+    "studentId": "ST100",
+    "department": "Computer Science",
+    "major": "Softawre",
+    "year": 1,
+    "semester": 1,
+    "status": "active",
+    "grades": []
+  },
+  {
+    "_id": {
+      "$oid": "68c56428ac693344684ce008"
+    },
+    "user": {
+      "$oid": "68c5642873140b28be755cb5"
+    },
+    "studentId": "ST1000",
+    "year": 1,
+    "semester": 1,
+    "status": "active",
+    "grades": [
+      {
+        "_id": {
+          "$oid": "dd3c71e345b9ede547fd19c7"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f2",
+          "code": "CS001",
+          "name": "Вовед во програмирање",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 6,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "2025-02-10",
+        "createdAt": {
+          "$date": "2025-09-14T21:54:06.098Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T21:54:06.098Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "859ac9fe07534498edbbb18b"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f6",
+          "code": "CS003",
+          "name": "Алгоритми",
+          "credits": 6
+        },
+        "professor": {
+          "_id": "68c56491d73bfc636adf24d4",
+          "firstName": "Zoran",
+          "lastName": "Kotevski"
+        },
+        "grade": 6,
+        "examDate": "2025-02-01",
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "createdAt": {
+          "$date": "2025-09-15T22:46:14.143Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-15T22:46:14.143Z"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "user": {
+      "$oid": "68c7364dda3e74a3c1a7a3e5"
+    },
+    "studentId": "ST1",
+    "year": 1,
+    "semester": 1,
+    "status": "active",
+    "grades": [
+      {
+        "_id": {
+          "$oid": "c2237e0fbc359205fa343acc"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f2",
+          "code": "CS001",
+          "name": "Вовед во програмирање",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 6,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "2025-02-01",
+        "createdAt": {
+          "$date": "2025-09-14T21:52:09.669Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T21:52:09.669Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "b2b2a510ba058fb99b5a60c3"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f4",
+          "code": "CS002",
+          "name": "Структури на податоци",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 6,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "0202-02-01",
+        "createdAt": {
+          "$date": "2025-09-14T22:00:24.064Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:00:24.064Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "e2192c2ee6e84abf91380dd0"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f6",
+          "code": "CS003",
+          "name": "Алгоритми",
+          "credits": 6
+        },
+        "professor": null,
+        "grade": 6,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "0202-02-01",
+        "createdAt": {
+          "$date": "2025-09-14T22:01:14.647Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T22:01:14.647Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "dac7602d3a8804f642cd7058"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8f8",
+          "code": "CS004",
+          "name": "Архитектура на компјутери",
+          "credits": 6
+        },
+        "professor": {
+          "_id": "68c56491d73bfc636adf24d4",
+          "firstName": "Zoran",
+          "lastName": "Kotevski"
+        },
+        "grade": 10,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "2025-01-02",
+        "createdAt": {
+          "$date": "2025-09-17T17:52:16.780Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-17T17:52:16.780Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "d3577cf627a666b42eef18ed"
+        },
+        "course": {
+          "_id": "6151f8a7e4b0c8e8f8f8f8fa",
+          "code": "CS005",
+          "name": "Оперативни системи",
+          "credits": 6
+        },
+        "professor": {
+          "_id": "68c56491d73bfc636adf24d4",
+          "firstName": "Zoran",
+          "lastName": "Kotevski"
+        },
+        "grade": 10,
+        "semester": 1,
+        "academicYear": "2024/2025",
+        "examDate": "2025-02-10",
+        "createdAt": {
+          "$date": "2025-09-17T12:55:01.798Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-17T12:55:01.798Z"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "_id": {
+      "$oid": "efebce5fa40de18a154d4551"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Вовед во програмирање",
+    "courseName": "Вовед во програмирање",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T21:45:00.240Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:29.806Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40431f36bf297d31f2f8d317"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "type": "grade",
+    "title": "Оцената е ажурирана",
+    "message": "Професорот Zoran Kotevski ажурира оцена 6 по предметот Вовед во програмирање",
+    "courseName": "Вовед во програмирање",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T21:52:09.670Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:31.399Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b5c94c381697c726e30abccb"
+    },
+    "studentId": {
+      "$oid": "68c56428ac693344684ce008"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f2"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Вовед во програмирање",
+    "courseName": "Вовед во програмирање",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T21:54:06.099Z"
+    },
+    "readAt": {
+      "$date": "2025-09-16T16:10:40.355Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "25ade87cf4df743d1b03555f"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f4"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Структури на податоци",
+    "courseName": "Структури на податоци",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T22:00:24.065Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:33.176Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46ddbfaaf1d8f06adb05af2f"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f6"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Алгоритми",
+    "courseName": "Алгоритми",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T22:01:14.649Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:34.836Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c8d516b6504ef84f24f465d2"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f8"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Архитектура на компјутери",
+    "courseName": "Архитектура на компјутери",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T22:05:47.901Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:44.598Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40b4aebfa8401bc5e913079c"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fa"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Оперативни системи",
+    "courseName": "Оперативни системи",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T22:17:59.229Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:38.577Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "98777c8c89477c384fda9fc9"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fa"
+    },
+    "type": "grade",
+    "title": "Оцената е ажурирана",
+    "message": "Професорот Zoran Kotevski ажурира оцена 6 по предметот Оперативни системи",
+    "courseName": "Оперативни системи",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-14T22:26:09.957Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:40.346Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1430cadda3456530a0350427"
+    },
+    "studentId": {
+      "$oid": "68c56428ac693344684ce008"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f6"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Алгоритми",
+    "courseName": "Алгоритми",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-15T22:46:14.148Z"
+    },
+    "readAt": {
+      "$date": "2025-09-16T16:10:39.832Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e299735c6bfc8908cd93e85"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8fa"
+    },
+    "type": "grade",
+    "title": "Оцената е ажурирана",
+    "message": "Професорот Zoran Kotevski ажурира оцена 10 по предметот Оперативни системи",
+    "courseName": "Оперативни системи",
+    "grade": 10,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-17T12:55:01.801Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T12:55:43.324Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b13568b46b6f62cf612bb3aa"
+    },
+    "studentId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f4"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Zoran Kotevski додаде оцена 6 по предметот Структури на податоци",
+    "courseName": "Структури на податоци",
+    "grade": 6,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-17T17:49:50.494Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T18:30:58.363Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87cb00bde4f29e2c29619819"
+    },
+    "studentId": {
+      "$oid": "68c7364d8bc10b7d626bbc9b"
+    },
+    "professorId": {
+      "$oid": "68c56491b35815a31453acda"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f8"
+    },
+    "type": "grade",
+    "title": "Оцената е ажурирана",
+    "message": "Професорот Zoran Kotevski ажурира оцена 10 по предметот Архитектура на компјутери",
+    "courseName": "Архитектура на компјутери",
+    "grade": 10,
+    "professorName": "Zoran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-17T17:52:16.782Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T17:53:12.544Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d60a74ef59174d20fd44ceef"
+    },
+    "studentId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f0"
+    },
+    "professorId": {
+      "$oid": "68cafe3119482818d61a2939"
+    },
+    "courseId": {
+      "$oid": "6151f8a7e4b0c8e8f8f8f8f6"
+    },
+    "type": "grade",
+    "title": "Нова оцена",
+    "message": "Професорот Goran Kotevski додаде оцена 6 по предметот Алгоритми",
+    "courseName": "Алгоритми",
+    "grade": 6,
+    "professorName": "Goran Kotevski",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-09-17T18:30:39.824Z"
+    },
+    "readAt": {
+      "$date": "2025-09-17T18:30:57.466Z"
+    }
+  }
+]
